@@ -1,0 +1,212 @@
+body {
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	font-family: 'Maven Pro', sans-serif;
+}
+
+a {
+	color: #730b10;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #CCC;
+}
+
+.page {
+	width: 100%;
+	border: 0px solid #000;
+	float: left;
+}
+
+header {
+	width: 100%;
+	float: left;
+}
+
+.top {
+	width: 100%;
+	height: 20px;
+	background: #000;
+	float: left;
+}
+
+.head {
+	width: 100%;
+	height: 120px;
+	float: left;
+}
+
+.head .head-content {
+	width: 100%;
+	max-width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+	border: 0px solid #940000;
+	background: #dedede;
+}
+
+.head .head-content .logo {
+	width: 300px;
+	height: 120px;
+	background: #0d5190;
+	float: left;
+}
+
+.main {
+	width: 100%;
+	float: left;
+}
+
+.main .content {
+	width: 100%;
+	max-width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+	border: 0px solid #940000;
+}
+
+.main .content .title {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.main .content .title h2 {
+	width: 100%;
+	font-size: 36px;
+	line-height: 30px;
+	padding: 20px 0 17px 0;
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	text-align: center;
+	float: left;
+	font-weight: 400;
+}
+
+.main .content .briciole {
+	margin-top: 30px;
+	font-size: 14px;
+}
+
+.main .content .paragrafo {
+	float: left;
+}
+
+.main .content .paragrafo h3 {
+	font-size: 24px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-weight: 400;
+	margin: 5px 0;
+}
+
+footer {
+	width: 100%;
+	float: left;
+	background: #000;
+	padding: 25px 0 25px 0;
+}
+
+footer .footer-content {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #000;
+	color: #FFF;
+}
+
+footer .footer-content .sx {
+	float: left;
+}
+
+footer .footer-content .sx ul {
+	margin: 0;
+	padding: 18px 0 0 0;
+}
+
+footer .footer-content .sx li {
+	list-style: none;
+	float: left;
+	margin: 0 10px 0 0;
+}
+
+footer .footer-content .sx li img {
+	border: 0;
+}
+
+footer .footer-content .dx {
+	width: auto;
+	float: right;
+	font-size: 14px;
+}
+
+footer .footer-content .dx p {
+	margin: 0 0 5px 0;
+}
+
+@media screen and (max-width: 1200px) {	
+	
+.head .head-content .logo {
+	width: 100%;
+	height: 120px;
+	background: #0d5190;
+	float: left;
+}
+
+.main .content {
+	width: 90%;
+	max-width: 1200px;
+	height: 120px;
+	margin: 0 auto;
+	border: 0px solid #940000;
+}
+
+footer .footer-content {
+	width: 90%;
+	max-width: 1200px;
+	margin: 0 auto;
+	background: #000;
+	color: #FFF;
+}
+	
+}
+
+@media screen and (max-width: 480px) {	
+	
+.main .content .title {
+	width: 100%;
+	margin: 0 auto;
+}
+	
+footer .footer-content .sx {
+	width: 100%;
+	float: left;
+}
+
+footer .footer-content .sx ul {
+	width: auto;
+	margin: 0 auto;
+	padding: 18px 0 0 0;
+	text-align: center;
+	border: 1px solid #940000;
+}
+
+footer .footer-content .sx li {
+	list-style: none;
+	float: left;
+	margin: 0 10px;
+}
+
+footer .footer-content .dx {
+	width: 100%;
+	float: left;
+	text-align: center;
+	padding: 20px 0 0 0;
+}
+
+footer .footer-content .dx p {
+	margin: 0 0 5px 0;
+}
+
+}
